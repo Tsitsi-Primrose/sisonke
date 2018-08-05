@@ -25,17 +25,17 @@ class Project extends Component {
                     <tbody><tr>
                         <td colSpan="3">
                             <img src={this.props.my_state.img} alt="" height={170} width={175} />
-                            <div>
-                                <img src={fb} alt="" height={50} width={50} />
-                                <img src={pin} alt="" height={50} width={50} />
-                                <img src={twt} alt="" height={50} width={50} />
+                            <div style={{padding: 10}}><br/>
+                                <img src={fb} alt="" height={30} width={30} /> &nbsp;
+                                <img src={pin} alt="" height={30} width={30} /> &nbsp;
+                                <img src={twt} alt="" height={30} width={30} /> &nbsp;
                             </div>
                         </td>
                         <td style={{textAlign: "center"}}>
                             <p>Type:{this.props.my_state.type}</p>
                             <p>Province:{this.props.my_state.province}</p>
                             <p>Area:{this.props.my_state.area}</p>
-                            <div><img src={this.status[this.props.id]} alt="" height={110} width={110}/></div>
+                            <div><img src={this.status[this.props.id]} alt="" height={110} width={110}/><br/> {this.props.id*100.0/8} % done</div>
                         </td>
                     </tr></tbody>
                 </table>

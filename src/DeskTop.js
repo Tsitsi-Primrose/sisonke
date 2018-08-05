@@ -77,7 +77,7 @@ class DeskTop extends Component {
                 <table><tbody><tr>
                     <td className="side-pane"><div className="side-pane">
                         <img src={this.state.user === "guest" ? icon : deflt} alt="icon" onClick={() => this.clear("block")}/>
-                        <div>{this.state.user}</div>
+                        <div style={{fontSize: 30}}>{this.state.user}</div>
                         <button className="my-norm" onClick={()=>{this.send("block",null)}}>Add</button>
                     </div></td>
                     <td><div className="main-pane">
