@@ -13,7 +13,7 @@ class Stories extends Component {
     ];
     render() {
         return (
-            <div className="login">
+            <div style={{padding: 10}}>
                 <p>Cleaner air, cleaner water and cleaner-land are the major successes of the Sisonke initiation.
                     After the beginning of this, the environment and the communities have been significantly improved in
                     many ways from the condition they were in on the first day that the programme was started. Promotion of
@@ -23,8 +23,8 @@ class Stories extends Component {
                     including schools, media and local organizations. This is due to the realization that small community campaigns
                     have grown into national efforts. Let's start with the success stories of this initiative. </p>
                 {this.story.map((data) => (
-                    <div>
-                        <img src={data.img} alt="" height={300}/><br />
+                    <div style={{boxShadow: "0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)", margin: 20, padding: 20}}>
+                        <img src={data.img} alt="" width="100%" /><br />
                         <div>type: {data.type}</div>
                         <div>province: {data.province}</div>
                         <div>area: {data.area}</div>

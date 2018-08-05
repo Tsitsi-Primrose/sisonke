@@ -24,17 +24,17 @@ class Mobile extends Component {
         my_new: "none",
         projects: [
             {type: "land-clear", province: "gating", area: "22 on Sloan", img: t0},
-            {type: "land-clear", province: "gating", area: "22 on Sloan", img: t1},
-            {type: "land-clear", province: "gating", area: "22 on Sloan", img: t2},
-            {type: "land-clear", province: "gating", area: "22 on Sloan", img: t3},
-            {type: "land-clear", province: "gating", area: "22 on Sloan", img: t4},
-            {type: "land-clear", province: "gating", area: "22 on Sloan", img: t5},
-            {type: "land-clear", province: "gating", area: "22 on Sloan", img: t6},
-            {type: "land-clear", province: "gating", area: "22 on Sloan", img: t7},
-            {type: "land-clear", province: "gating", area: "22 on Sloan", img: t8},
-            {type: "land-clear", province: "gating", area: "22 on Sloan", img: t9},
-            {type: "land-clear", province: "gating", area: "22 on Sloan", img: t10},
-            {type: "land-clear", province: "gating", area: "22 on Sloan", img: t11}
+            {type: "land-clear", province: "gating", area: "78 Mayersdal", img: t1},
+            {type: "land-clear", province: "gating", area: "5 Crest street", img: t2},
+            {type: "land-clear", province: "gating", area: "100 langlaagte avenue", img: t3},
+            {type: "land-clear", province: "gating", area: "1 Prichard street", img: t4},
+            {type: "land-clear", province: "gating", area: "45 Surrey street", img: t5},
+            {type: "land-clear", province: "gating", area: "90 Junction avenue", img: t6},
+            {type: "land-clear", province: "gating", area: "1845 Nlhapo section", img: t7},
+            {type: "land-clear", province: "gating", area: "60 Melrose arch", img: t8},
+            {type: "land-clear", province: "gating", area: "4 Dladla street", img: t9},
+            {type: "land-clear", province: "gating", area: "22 Edenvale", img: t10},
+            {type: "land-clear", province: "gating", area: "10 Yeoville", img: t11}
         ],
         user: "guest"
     };

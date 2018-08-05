@@ -3,9 +3,8 @@ import './App.css';
 import Mobile from "./Mobile";
 import DeskTop from "./DeskTop";
 import town from "./town.jpg";
-import house from "./0.png";
 import Stories from "./Stories";
-import full from "./FullName.png";
+import full from "./FullNameWhite.png";
 import hour from "./hour.svg";
 import horn from "./horn.svg";
 
@@ -88,8 +87,8 @@ class App extends Component {
                 </div>
                 <div className="header" style={{backgroundImage: "url("+town+")"}} ><img src={full} alt="" height={50} /><br/>The Vaal Community</div>
                 <ul>
-                    <li><a className="active" onClick={()=>{this.switchTab(0)}}><img src={horn} alt="" height={20} width="auto"/> &nbsp; <span className="no-icon">Your Story</span></a></li>
-                    <li><a  onClick={()=>{this.switchTab(1)}}><img src={hour} alt="" height={20} width="auto"/> &nbsp; <span className="no-icon">In Progress</span></a></li>
+                    <li><a className={this.state.tab === 0 ? "active" : ""} onClick={()=>{this.switchTab(0)}}><img src={hour} alt="" height={20} width="auto"/> &nbsp; <span className="no-icon">In Progress</span></a></li>
+                    <li><a className={this.state.tab === 1 ? "active" : ""} onClick={()=>{this.switchTab(1)}}><img src={horn} alt="" height={20} width="auto"/> &nbsp; <span className="no-icon">Your Story</span></a></li>
                 </ul>
                 {body}
             </div>
