@@ -4,26 +4,37 @@ import Login from "./Login";
 import icon from './icon.png';
 import Project from "./Project";
 import New from "./New";
-import dog from './dog.jpeg';
 import deflt from './photo.jpg';
+import t0 from './Chennai pollution.jpg';
+import t1 from './im7.jpg';
+import t2 from './im8.jpg';
+import t3 from './ad1.jpeg';
+import t4 from './town.jpg';
+import t5 from './images2.jpeg';
+import t6 from './im13.jpeg';
+import t7 from './im12.jpeg';
+import t8 from './im9.jpg';
+import t9 from './im10.jpg';
+import t10 from './hurr.jpg';
+import t11 from './farm.jpg';
 
 class Mobile extends Component {
     state = {
         form: "none",
         my_new: "none",
         projects: [
-            {type: "land-clear", province: "gating", area: "22 on Sloan", img: dog, todo: [], },
-            {type: "land-clear", province: "gating", area: "22 on Sloan", img: dog},
-            {type: "land-clear", province: "gating", area: "22 on Sloan", img: dog},
-            {type: "land-clear", province: "gating", area: "22 on Sloan", img: dog},
-            {type: "land-clear", province: "gating", area: "22 on Sloan", img: dog},
-            {type: "land-clear", province: "gating", area: "22 on Sloan", img: dog},
-            {type: "land-clear", province: "gating", area: "22 on Sloan", img: dog},
-            {type: "land-clear", province: "gating", area: "22 on Sloan", img: dog},
-            {type: "land-clear", province: "gating", area: "22 on Sloan", img: dog},
-            {type: "land-clear", province: "gating", area: "22 on Sloan", img: dog},
-            {type: "land-clear", province: "gating", area: "22 on Sloan", img: dog},
-            {type: "land-clear", province: "gating", area: "22 on Sloan", img: dog}
+            {type: "land-clear", province: "gating", area: "22 on Sloan", img: t0},
+            {type: "land-clear", province: "gating", area: "22 on Sloan", img: t1},
+            {type: "land-clear", province: "gating", area: "22 on Sloan", img: t2},
+            {type: "land-clear", province: "gating", area: "22 on Sloan", img: t3},
+            {type: "land-clear", province: "gating", area: "22 on Sloan", img: t4},
+            {type: "land-clear", province: "gating", area: "22 on Sloan", img: t5},
+            {type: "land-clear", province: "gating", area: "22 on Sloan", img: t6},
+            {type: "land-clear", province: "gating", area: "22 on Sloan", img: t7},
+            {type: "land-clear", province: "gating", area: "22 on Sloan", img: t8},
+            {type: "land-clear", province: "gating", area: "22 on Sloan", img: t9},
+            {type: "land-clear", province: "gating", area: "22 on Sloan", img: t10},
+            {type: "land-clear", province: "gating", area: "22 on Sloan", img: t11}
         ],
         user: "guest"
     };

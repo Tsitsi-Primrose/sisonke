@@ -74,6 +74,10 @@
 
 .header {
   height: 200px;
+  color: white;
+  font-size: 400%;
+  text-align: center;
+  padding: auto;
 }
 
 ul {
@@ -114,4 +118,8 @@ li a:hover {
 
 @media screen and (max-width: 800px){
   .no-icon {display: none;}
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
 }
