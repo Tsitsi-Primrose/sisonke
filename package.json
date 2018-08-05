@@ -8,6 +8,7 @@
     "react": "^16.4.2",
     "react-dom": "^16.4.2",
     "react-file-reader": "^1.1.4",
+    "react-fontawesome": "^1.6.1",
     "react-scripts": "1.1.4"
   },
   "scripts": {

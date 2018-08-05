@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import './App.css';
-import dog from './dog.jpeg';
 import fb from './fb1.png';
 import pin from './pin.png';
 import twt from './twitter.png';
@@ -16,14 +15,16 @@ import p0 from './0.png';
 
 class Project extends Component {
     status = [p0, p1, p2, p3, p4, p5, p6, p7, pf];
+
     my_state;
+    makePledge;
     render() {
         return (
-            <div className="project">
+            <div className="project" onClick={this.props.makePledge}>
                 <table>
                     <tbody><tr>
                         <td colSpan="3">
-                            <img src={dog} alt="" height={170} width={175} />
+                            <img src={this.props.my_state.img} alt="" height={170} width={175} />
                             <div>
                                 <img src={fb} alt="" height={50} width={50} />
                                 <img src={pin} alt="" height={50} width={50} />

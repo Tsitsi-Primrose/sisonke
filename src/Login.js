@@ -6,9 +6,9 @@ class Login extends Component {
         return (
             <div className="login">
                 Login Here <br />
-                Name: .....................<br/>
-                Password: .................<br/>
-                <button onClick={() => this.props.clear("none")}>Cancel</button>
+                Username: <input type="text" /><br/>
+                Password: <input type="password" /><br/>
+                <button onClick={() => this.props.clear("none")}>Login</button>
             </div>
         );
     }
